@@ -107,7 +107,7 @@ SIMILAR_SHIPS: List[Tuple] = [('PASB017', 'PASB510'),  # Montana, Ohio
                               ('PGSC508', 'PGSC108', 'PGSC518'),  # Prinz Eugen, Hipper, Mainz
                               ('PASC020', 'PASC710'),  # Des Moines, Salem
                               ('PJSB509', 'PJSB018', 'PJSB510'),  # Musashi, Yamato, Shikishima
-                              ('PASB012', 'PASB508', 'PASB518', 'PASB517'),  # North Carolina, Alabama, Massachusetts, Florida
+                              ('PASB508', 'PASB518'),  # Alabama, Massachusetts, 
                               ('PBSB107', 'PBSB527'),  # King George V, Duke Of York
                               ('PZSC508', 'PRSC508'),  # Irian, Kutuzov
                               ('PRSC606', 'PGSC106'),  # Makarov, Nurnberg
@@ -118,7 +118,7 @@ SIMILAR_SHIPS: List[Tuple] = [('PASB017', 'PASB510'),  # Montana, Ohio
                               ('PZSD106', 'PZSD506', 'PRSD206'),  # Fushun, Anshan, Gnevny
                               ('PFSD110', 'PFSD210'),  # Kleber, Marceau
                               ('PWSD110', 'PWSD610'),  # Halland, Smaland
-                              ('PASD008', 'PZSD108'),  # Benson, Hsienyang
+                              ('PASD008', 'PZSD108' 'PZSD508'),  # Benson, Hsienyang, Loyang
                               ('PBSC508', 'PBSC208'),  # Cheshire, Albemarle
                               ('PFSB109', 'PFSB510'),  # Alsace, Bourgogne
                               ('PRSD207', 'PRSD507'),  # Minsk, Leningrad
@@ -127,7 +127,6 @@ SIMILAR_SHIPS: List[Tuple] = [('PASB017', 'PASB510'),  # Montana, Ohio
                               ('PASB006', 'PASB705'),  # New York, Texas
                               ('PRSC108', 'PRSC518'),  # Chapayev, Lazo
                               ('PBSC108', 'PBSC510'),  # Edinburgh, Plymouth
-                              ('PGSA518', 'PGSA108')]  # Graf Zeppelin, August von Parseval
 WG_LOGO = 'https://cdn.discordapp.com/attachments/651324664496521225/651332148963442688/logo.png'
 DEFAULT_GROUPS = ('start', 'peculiar', 'demoWithoutStats', 'earlyAccess', 'special', 'ultimate',
                   'specialUnsellable', 'upgradeableExclusive', 'upgradeable', 'upgradeableUltimate')
